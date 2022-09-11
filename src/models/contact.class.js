@@ -2,7 +2,7 @@ export class Contact {
     firstName = '';
     lastName = '';
     email= '';
-    online = '';
+    online = true;
 
     constructor(firstName, lastName, email, online){
         this.firstName = firstName;
